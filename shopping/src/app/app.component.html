@@ -1,0 +1,23 @@
+<h1>My Component</h1>
+<input type="text" placeholder="Enter the value" id="nam">
+<button (click)="fun()">Click me</button>
+{{val}}
+<br>
+<input type="text" placeholder="Enter something" [(ngModel)]="x">
+{{x}}
+
+<br>
+<div class="box">
+    <input type="text" placeholder="Enter the name" [(ngModel)]="name">
+    <br>
+    <input type="email" placeholder="enter the email" [(ngModel)]="em">
+    <br>
+    <input type="password" placeholder="Enter the password" [(ngModel)]="pass">
+<button (click)="show()">Singn In</button>
+</div>
+
+<div class="box">
+    <p>My name is:{{name}}</p>
+    <p>my email id is:{{em}}</p>
+    <p>passs</p>
+</div>
